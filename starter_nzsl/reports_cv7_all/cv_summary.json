@@ -1,0 +1,19 @@
+{
+  "folds": 7,
+  "best_model": "rf",
+  "final_model_path": "starter_nzsl/models_cv7_all/sklearn_rf_cv7_all.joblib",
+  "models": {
+    "rf": {
+      "accuracy_mean": 0.929064039408867,
+      "accuracy_std": 0.018554281631297912,
+      "macro_f1_mean": 0.92892541327872,
+      "macro_f1_std": 0.017322385881593304
+    },
+    "svm": {
+      "accuracy_mean": 0.9133004926108373,
+      "accuracy_std": 0.01774311022560274,
+      "macro_f1_mean": 0.9153319140781404,
+      "macro_f1_std": 0.015032500666147334
+    }
+  }
+}

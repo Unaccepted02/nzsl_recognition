@@ -1,0 +1,8 @@
+fold,accuracy,macro_f1,model_path
+1,0.9448275862068966,0.9450913820479039,starter_nzsl/models_transformer_cv7_all/fold_1/best_transformer.pt
+2,0.9379310344827586,0.9359900968596621,starter_nzsl/models_transformer_cv7_all/fold_2/best_transformer.pt
+3,0.9517241379310345,0.952883149814096,starter_nzsl/models_transformer_cv7_all/fold_3/best_transformer.pt
+4,0.9241379310344827,0.925147117730238,starter_nzsl/models_transformer_cv7_all/fold_4/best_transformer.pt
+5,0.9310344827586207,0.9345596432552956,starter_nzsl/models_transformer_cv7_all/fold_5/best_transformer.pt
+6,0.903448275862069,0.906130868279206,starter_nzsl/models_transformer_cv7_all/fold_6/best_transformer.pt
+7,0.9310344827586207,0.9300918887875409,starter_nzsl/models_transformer_cv7_all/fold_7/best_transformer.pt

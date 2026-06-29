@@ -1,0 +1,41 @@
+label,bilingual_gloss,english,maori,category,priority,status,min_samples,target_samples,preferred_source_ids,notes
+bus,bus / pahi,Bus,Pahi,transport,1,active,8,20,nzsl_online,High-value transport term
+train,train / tereina,Train,Tereina,transport,1,active,8,20,nzsl_online,High-value transport term
+ferry,ferry / waka whakawhiti,Ferry,Waka whakawhiti,transport,1,active,8,16,nzsl_online,Prefer dedicated ferry clips over boat
+boat,boat / waka,Boat,Waka,transport,2,active,8,16,nzsl_online,Useful fallback if ferry coverage is low
+taxi,taxi / tekihi,Taxi,Tekihi,transport,1,active,8,16,nzsl_online,Important service term
+car,car / motoka,Car,Motoka,transport,1,active,8,20,nzsl_online,High-frequency mobility term
+bicycle,bicycle / paihikara,Bicycle,Paihikara,transport,1,active,8,20,nzsl_online,High-frequency mobility term
+motorbike,motorbike / motopaika,Motorbike,Motopaika,transport,2,active,8,16,nzsl_online,Useful contrast against bicycle and car
+truck,truck / taraka,Truck,Taraka,transport,2,active,8,16,nzsl_online,Logistics-related transport term
+coach,coach / pahi nui,Coach,Pahi nui,transport,2,active,8,16,nzsl_online,Public transport variant
+minibus,minibus / pahi iti,Minibus,Pahi iti,transport,3,planned,6,12,nzsl_online,Good expansion class if clips are available
+walk,walk / hikoi,Walk,Hikoi,mobility,1,active,8,20,nzsl_online,Core mobility term
+wheelchair,wheelchair / turu wira,Wheelchair,Turu wira,mobility,1,active,8,16,nzsl_online,Accessibility-critical term
+ramp,ramp / arawhata,Ramp,Arawhata,infrastructure,1,active,8,16,nzsl_online,Accessibility-critical term
+lift,lift / hiki,Lift,Hiki,infrastructure,1,active,8,16,nzsl_online,Accessibility-critical term
+path,path / ara,Path,Ara,infrastructure,1,active,8,16,nzsl_online,Wayfinding term
+bridge,bridge / piriti,Bridge,Piriti,infrastructure,2,active,8,16,nzsl_online,Wayfinding term
+station,station / teihana,Station,Teihana,infrastructure,1,active,8,16,nzsl_online,Core wayfinding term
+platform,platform / papa waka,Platform,Papa waka,infrastructure,1,active,8,16,nzsl_online,Core rail wayfinding term
+stop,stop / tauranga pahi,Stop / Bus stop,Tauranga pahi,infrastructure,1,active,8,16,nzsl_online,Core bus wayfinding term
+crossing,crossing / ara whakawhiti,Crossing,Ara whakawhiti,infrastructure,2,active,8,16,nzsl_online,Useful pedestrian safety term
+shared_path,shared path / ara tiritiri,Shared path,Ara tiritiri,infrastructure,3,planned,6,12,nzsl_online,Expansion class
+shelter,shelter / whakaruruhau,Shelter,Whakaruruhau,infrastructure,3,planned,6,12,nzsl_online,Useful stop/station context term
+ticket,ticket / tikiti,Ticket,Tikiti,service,2,planned,8,16,nzsl_online,Common transport service term
+pay,pay / utu,Pay,Utu,service,2,planned,8,16,nzsl_online,Common transport service term
+help,help / awhina,Help,Awhina,service,1,active,8,20,nzsl_online|manual_capture,Core passenger support term
+where,where / kei hea,Where,Kei hea,service,2,planned,8,16,nzsl_online,Wayfinding interaction term
+when,when / awhea,When,Awhea,service,3,planned,8,12,nzsl_online,Useful timetable interaction term
+late,late / tomuri,Late,Tomuri,service,2,planned,8,12,nzsl_online,Useful disruption term
+wait,wait / tatari,Wait,Tatari,service,2,planned,8,16,nzsl_online,Useful platform/stop interaction term
+go,go / haere,Go,Haere,service,2,planned,8,16,nzsl_online,High-frequency movement term
+arrive,arrive / tae mai,Arrive,Tae mai,service,2,planned,8,16,nzsl_online,Useful trip state term
+leave,leave / wehe,Leave,Wehe,service,2,planned,8,16,nzsl_online,Useful trip state term
+hello,hello / kia ora,Hello,Kia ora,daily,1,active,8,20,nzsl_online|manual_capture,High-priority bilingual greeting
+thank_you,thank you / mihi,Thank you,Mihi,daily,1,active,8,20,nzsl_online,High-priority social term
+please,please / tena koa,Please,Tena koa,daily,2,planned,8,16,nzsl_online,Useful polite interaction term
+yes,yes / ae,Yes,Ae,daily,2,planned,8,16,nzsl_online,Short confirmation term
+no,no / kaore,No,Kao / Kaore,daily,2,planned,8,16,nzsl_online,Short denial term
+sorry,sorry / aroha mai,Sorry,Aroha mai,daily,2,planned,8,16,nzsl_online,Useful service recovery term
+bathroom,bathroom / wharepaku,Bathroom,Wharepaku,daily,2,planned,8,16,nzsl_online,Common public-space support term

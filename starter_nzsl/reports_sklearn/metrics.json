@@ -1,0 +1,186 @@
+{
+  "accuracy": 0.07792207792207792,
+  "macro_f1": 0.03961911467632291,
+  "classification_report": {
+    "alarm": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "arrive": {
+      "precision": 0.07692307692307693,
+      "recall": 0.5,
+      "f1-score": 0.13333333333333333,
+      "support": 2.0
+    },
+    "bathroom": {
+      "precision": 0.2222222222222222,
+      "recall": 0.4,
+      "f1-score": 0.2857142857142857,
+      "support": 5.0
+    },
+    "bicycle": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 7.0
+    },
+    "boat": {
+      "precision": 0.02702702702702703,
+      "recall": 1.0,
+      "f1-score": 0.05263157894736842,
+      "support": 1.0
+    },
+    "burn": {
+      "precision": 0.2,
+      "recall": 0.5,
+      "f1-score": 0.2857142857142857,
+      "support": 2.0
+    },
+    "bus": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "cancel": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "delay": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "earthquake": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "exit": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "help": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "kiaora": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "leave": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "lift": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "pay": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "platform": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "sorry": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "thank_you": {
+      "precision": 0.125,
+      "recall": 0.2,
+      "f1-score": 0.15384615384615385,
+      "support": 5.0
+    },
+    "ticket": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "train": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "wheelchair": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "when": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "accuracy": 0.07792207792207792,
+    "macro avg": {
+      "precision": 0.028311840268362004,
+      "recall": 0.11304347826086956,
+      "f1-score": 0.03961911467632291,
+      "support": 77.0
+    },
+    "weighted avg": {
+      "precision": 0.03009070509070509,
+      "recall": 0.07792207792207792,
+      "f1-score": 0.040110766426555894,
+      "support": 77.0
+    }
+  },
+  "labels": [
+    "alarm",
+    "arrive",
+    "bathroom",
+    "bicycle",
+    "boat",
+    "burn",
+    "bus",
+    "cancel",
+    "delay",
+    "earthquake",
+    "exit",
+    "help",
+    "kiaora",
+    "leave",
+    "lift",
+    "pay",
+    "platform",
+    "sorry",
+    "thank_you",
+    "ticket",
+    "train",
+    "wheelchair",
+    "when"
+  ],
+  "top3_accuracy": 0.15584415584415584,
+  "top5_accuracy": 0.23376623376623376,
+  "model_type": "sklearn",
+  "model_path": "starter_nzsl/models/sklearn_rf.joblib"
+}

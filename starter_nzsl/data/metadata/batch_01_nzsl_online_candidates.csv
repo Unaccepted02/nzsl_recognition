@@ -1,0 +1,42 @@
+label,bilingual_gloss,english,maori,search_term,source_id,source_url,sign_id,sign_title,candidate_status,candidate_rationale,video_count
+bus,bus / pahi,Bus,Pahi,bus,nzsl_online,https://www.nzsl.nz/signs/3587,3587,"bus, truck",seed,"Exact match: bus, truck",3
+bus,bus / pahi,Bus,Pahi,bus,nzsl_online,https://www.nzsl.nz/signs/2823,2823,trolley bus,candidate,Subtype: trolley bus,2
+bus,bus / pahi,Bus,Pahi,bus,nzsl_online,https://www.nzsl.nz/signs/4216,4216,"shuttle bus, van",candidate,"Subtype: shuttle bus, van",3
+train,train / tereina,Train,Tereina,train,nzsl_online,https://www.nzsl.nz/signs/5934,5934,train,seed,Exact match: train,2
+train,train / tereina,Train,Tereina,train,nzsl_online,https://www.nzsl.nz/signs/2827,2827,train,seed,Exact match: train,2
+train,train / tereina,Train,Tereina,train,nzsl_online,https://www.nzsl.nz/signs/2926,2926,train,seed,Exact match: train,2
+train,train / tereina,Train,Tereina,train,nzsl_online,https://www.nzsl.nz/signs/3592,3592,train,seed,Exact match: train,2
+ferry,ferry / waka whakawhiti,Ferry,Waka whakawhiti,ferry,nzsl_online,https://www.nzsl.nz/signs/859,859,"boat, sail",candidate,"Semantic proxy only: boat, sail",3
+taxi,taxi / tekihi,Taxi,Tekihi,taxi,nzsl_online,https://www.nzsl.nz/signs/3810,3810,taxi,seed,Exact match: taxi,2
+car,car / motoka,Car,Motoka,car,nzsl_online,https://www.nzsl.nz/signs/3462,3462,"car, drive",seed,"Exact match: car, drive",3
+car,car / motoka,Car,Motoka,car,nzsl_online,https://www.nzsl.nz/signs/8001,8001,cable car,reject,Different concept: cable car,2
+car,car / motoka,Car,Motoka,car,nzsl_online,https://www.nzsl.nz/signs/3386,3386,car body,reject,Different concept: car body,2
+car,car / motoka,Car,Motoka,car,nzsl_online,https://www.nzsl.nz/signs/8970,8970,park (car),reject,Different concept: park (car),2
+car,car / motoka,Car,Motoka,car,nzsl_online,https://www.nzsl.nz/signs/603,603,park (car),reject,Different concept: park (car),2
+bicycle,bicycle / paihikara,Bicycle,Paihikara,bicycle,nzsl_online,https://www.nzsl.nz/signs/7050,7050,"bicycle, ride a bicycle",seed,"Exact match: bicycle, ride a bicycle",3
+bicycle,bicycle / paihikara,Bicycle,Paihikara,bicycle,nzsl_online,https://www.nzsl.nz/signs/3521,3521,"bicycle, ride a bicycle",seed,"Exact match: bicycle, ride a bicycle",3
+walk,walk / hikoi,Walk,Hikoi,walk,nzsl_online,https://www.nzsl.nz/signs/2883,2883,walk,seed,Exact match: walk,2
+walk,walk / hikoi,Walk,Hikoi,walk,nzsl_online,https://www.nzsl.nz/signs/4993,4993,walk,seed,Exact match: walk,2
+walk,walk / hikoi,Walk,Hikoi,walk,nzsl_online,https://www.nzsl.nz/signs/2942,2942,walk across,candidate,Related but narrower: walk across,2
+wheelchair,wheelchair / turu wira,Wheelchair,Turu wira,wheelchair,nzsl_online,https://www.nzsl.nz/signs/3972,3972,wheelchair,seed,Exact match: wheelchair,2
+wheelchair,wheelchair / turu wira,Wheelchair,Turu wira,wheelchair,nzsl_online,https://www.nzsl.nz/signs/5990,5990,wheelchair,seed,Exact match: wheelchair,2
+ramp,ramp / arawhata,Ramp,Arawhata,ramp,nzsl_online,https://www.nzsl.nz/signs/6140,6140,"ramp, (go) uphill",seed,"Exact match: ramp, (go) uphill",3
+lift,lift / hiki,Lift,Hiki,lift,nzsl_online,https://www.nzsl.nz/signs/934,934,lift,seed,Exact match: lift,2
+lift,lift / hiki,Lift,Hiki,lift,nzsl_online,https://www.nzsl.nz/signs/4694,4694,lift,seed,Exact match: lift,2
+lift,lift / hiki,Lift,Hiki,lift,nzsl_online,https://www.nzsl.nz/signs/508,508,lift,seed,Exact match: lift,2
+lift,lift / hiki,Lift,Hiki,lift,nzsl_online,https://www.nzsl.nz/signs/234,234,lift,seed,Exact match: lift,2
+station,station / teihana,Station,Teihana,station,nzsl_online,https://www.nzsl.nz/signs/2916,2916,railway station,seed,Exact match: railway station,2
+station,station / teihana,Station,Teihana,station,nzsl_online,https://www.nzsl.nz/signs/845,845,"house, station",reject,"Ambiguous and broader: house, station",3
+platform,platform / papa waka,Platform,Papa waka,platform,nzsl_online,https://www.nzsl.nz/signs/6002,6002,platform,seed,Exact match: platform,2
+stop,stop / tauranga pahi,Stop / Bus stop,Tauranga pahi,stop,nzsl_online,https://www.nzsl.nz/signs/425,425,stop,seed,Exact match: stop,2
+stop,stop / tauranga pahi,Stop / Bus stop,Tauranga pahi,stop,nzsl_online,https://www.nzsl.nz/signs/5971,5971,stop,seed,Exact match: stop,2
+stop,stop / tauranga pahi,Stop / Bus stop,Tauranga pahi,stop,nzsl_online,https://www.nzsl.nz/signs/6376,6376,bus stop,seed,Exact match for requested gloss stop / bus stop,2
+stop,stop / tauranga pahi,Stop / Bus stop,Tauranga pahi,stop,nzsl_online,https://www.nzsl.nz/signs/3677,3677,stop it!,reject,Different function: stop it!,2
+help,help / awhina,Help,Awhina,help,nzsl_online,https://www.nzsl.nz/signs/1123,1123,help,seed,Exact match: help,2
+help,help / awhina,Help,Awhina,help,nzsl_online,https://www.nzsl.nz/signs/5091,5091,help,seed,Exact match: help,2
+help,help / awhina,Help,Awhina,help,nzsl_online,https://www.nzsl.nz/signs/384,384,help,seed,Exact match: help,2
+hello,hello / kia ora,Hello,Kia ora,kia ora,nzsl_online,https://www.nzsl.nz/signs/6351,6351,kia ora,seed,Exact match: kia ora,2
+hello,hello / kia ora,Hello,Kia ora,kia ora,nzsl_online,https://www.nzsl.nz/signs/1301,1301,"goodbye, hello",candidate,"Related but broader: goodbye, hello",3
+hello,hello / kia ora,Hello,Kia ora,kia ora,nzsl_online,https://www.nzsl.nz/signs/5243,5243,"goodbye, hello",candidate,"Related but broader: goodbye, hello",3
+hello,hello / kia ora,Hello,Kia ora,kia ora,nzsl_online,https://www.nzsl.nz/signs/321,321,"hello, salute",candidate,"Related but broader: hello, salute",3
+thank_you,thank you / mihi,Thank you,Mihi,thank you,nzsl_online,https://www.nzsl.nz/signs/1015,1015,thank,seed,Exact match: thank,2

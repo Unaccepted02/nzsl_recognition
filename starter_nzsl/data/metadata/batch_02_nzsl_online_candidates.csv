@@ -1,0 +1,50 @@
+label,bilingual_gloss,english,maori,source_id,source_url,sign_id,sign_title,candidate_status,candidate_rationale,video_count
+coach,coach / pahi nui,Coach,Pahi nui,nzsl_online,https://www.nzsl.nz/signs/744,744,coach,seed,Exact match: coach,3
+coach,coach / pahi nui,Coach,Pahi nui,nzsl_online,https://www.nzsl.nz/signs/4216,4216,"shuttle bus, van",candidate,"Related transport subtype: shuttle bus, van",3
+truck,truck / taraka,Truck,Taraka,nzsl_online,https://www.nzsl.nz/signs/8995,8995,truck,seed,Exact match: truck,2
+truck,truck / taraka,Truck,Taraka,nzsl_online,https://www.nzsl.nz/signs/3587,3587,"bus, truck",candidate,"Related broader gloss: bus, truck",3
+ticket,ticket / tikiti,Ticket,Tikiti,nzsl_online,https://www.nzsl.nz/signs/4472,4472,ticket,seed,Exact match: ticket,2
+ticket,ticket / tikiti,Ticket,Tikiti,nzsl_online,https://www.nzsl.nz/signs/4480,4480,clip ticket,candidate,Subtype: clip ticket,2
+pay,pay / utu,Pay,Utu,nzsl_online,https://www.nzsl.nz/signs/3863,3863,pay,seed,Exact match: pay,2
+pay,pay / utu,Pay,Utu,nzsl_online,https://www.nzsl.nz/signs/3850,3850,pay,seed,Exact match: pay,2
+pay,pay / utu,Pay,Utu,nzsl_online,https://www.nzsl.nz/signs/8154,8154,pay,seed,Exact match: pay,2
+pay,pay / utu,Pay,Utu,nzsl_online,https://www.nzsl.nz/signs/282,282,"concentrate, pay attention",reject,Different meaning: pay attention,3
+where,where / kei hea,Where,Kei hea,nzsl_online,https://www.nzsl.nz/signs/1544,1544,where,seed,Exact match: where,2
+where,where / kei hea,Where,Kei hea,nzsl_online,https://www.nzsl.nz/signs/4996,4996,"what, where, why",candidate,"Broader gloss: what, where, why",4
+when,when / awhea,When,Awhea,nzsl_online,https://www.nzsl.nz/signs/1338,1338,when,seed,Exact match: when,3
+late,late / tomuri,Late,Tomuri,nzsl_online,https://www.nzsl.nz/signs/2758,2758,late,seed,Exact match: late,2
+late,late / tomuri,Late,Tomuri,nzsl_online,https://www.nzsl.nz/signs/419,419,late,seed,Exact match: late,2
+late,late / tomuri,Late,Tomuri,nzsl_online,https://www.nzsl.nz/signs/2757,2757,late,seed,Exact match: late,2
+late,late / tomuri,Late,Tomuri,nzsl_online,https://www.nzsl.nz/signs/2393,2393,too late,candidate,Different emphasis: too late,2
+late,late / tomuri,Late,Tomuri,nzsl_online,https://www.nzsl.nz/signs/5811,5811,delay,candidate,Related concept: delay,2
+wait,wait / tatari,Wait,Tatari,nzsl_online,https://www.nzsl.nz/signs/3518,3518,wait,seed,Exact match: wait,2
+wait,wait / tatari,Wait,Tatari,nzsl_online,https://www.nzsl.nz/signs/909,909,wait,seed,Exact match: wait,2
+wait,wait / tatari,Wait,Tatari,nzsl_online,https://www.nzsl.nz/signs/404,404,wait,seed,Exact match: wait,2
+wait,wait / tatari,Wait,Tatari,nzsl_online,https://www.nzsl.nz/signs/7216,7216,wait a minute,candidate,Narrower phrase: wait a minute,2
+wait,wait / tatari,Wait,Tatari,nzsl_online,https://www.nzsl.nz/signs/4213,4213,hold on,candidate,Related phrase: hold on,2
+go,go / haere,Go,Haere,nzsl_online,https://www.nzsl.nz/signs/2582,2582,go,seed,Exact match: go,2
+go,go / haere,Go,Haere,nzsl_online,https://www.nzsl.nz/signs/924,924,go,seed,Exact match: go,2
+go,go / haere,Go,Haere,nzsl_online,https://www.nzsl.nz/signs/1126,1126,"go ahead, move on",candidate,"Related phrase: go ahead, move on",3
+go,go / haere,Go,Haere,nzsl_online,https://www.nzsl.nz/signs/1197,1197,go ahead,candidate,Related phrase: go ahead,3
+go,go / haere,Go,Haere,nzsl_online,https://www.nzsl.nz/signs/2410,2410,go to,candidate,Related phrase: go to,2
+arrive,arrive / tae mai,Arrive,Tae mai,nzsl_online,https://www.nzsl.nz/signs/1031,1031,arrive,seed,Exact match: arrive,2
+leave,leave / wehe,Leave,Wehe,nzsl_online,https://www.nzsl.nz/signs/432,432,leave,seed,Exact match: leave,2
+leave,leave / wehe,Leave,Wehe,nzsl_online,https://www.nzsl.nz/signs/777,777,"leave, let go",candidate,"Broader gloss: leave, let go",3
+leave,leave / wehe,Leave,Wehe,nzsl_online,https://www.nzsl.nz/signs/1175,1175,exit,candidate,Related concept: exit,2
+leave,leave / wehe,Leave,Wehe,nzsl_online,https://www.nzsl.nz/signs/5915,5915,drop off,candidate,Related transport phrase: drop off,2
+please,please / tena koa,Please,Tena koa,nzsl_online,https://www.nzsl.nz/signs/8974,8974,please,seed,Exact match: please,2
+please,please / tena koa,Please,Tena koa,nzsl_online,https://www.nzsl.nz/signs/385,385,please,seed,Exact match: please,2
+yes,yes / ae,Yes,Ae,nzsl_online,https://www.nzsl.nz/signs/3236,3236,yes,seed,Exact match: yes,2
+yes,yes / ae,Yes,Ae,nzsl_online,https://www.nzsl.nz/signs/5337,5337,yes or no,candidate,Phrase: yes or no,2
+no,no / kaore,No,Kaore,nzsl_online,https://www.nzsl.nz/signs/1464,1464,no,seed,Exact match: no,2
+no,no / kaore,No,Kaore,nzsl_online,https://www.nzsl.nz/signs/3272,3272,no,seed,Exact match: no,2
+no,no / kaore,No,Kaore,nzsl_online,https://www.nzsl.nz/signs/5337,5337,yes or no,candidate,Phrase: yes or no,2
+no,no / kaore,No,Kaore,nzsl_online,https://www.nzsl.nz/signs/5089,5089,no more,candidate,Related phrase: no more,2
+sorry,sorry / aroha mai,Sorry,Aroha mai,nzsl_online,https://www.nzsl.nz/signs/1708,1708,sorry,seed,Exact match: sorry,2
+sorry,sorry / aroha mai,Sorry,Aroha mai,nzsl_online,https://www.nzsl.nz/signs/3724,3724,sorry,seed,Exact match: sorry,2
+sorry,sorry / aroha mai,Sorry,Aroha mai,nzsl_online,https://www.nzsl.nz/signs/1471,1471,sorry,seed,Exact match: sorry,2
+sorry,sorry / aroha mai,Sorry,Aroha mai,nzsl_online,https://www.nzsl.nz/signs/769,769,sympathise,candidate,Related concept: sympathise,2
+bathroom,bathroom / wharepaku,Bathroom,Wharepaku,nzsl_online,https://www.nzsl.nz/signs/1439,1439,bathroom,seed,Exact match: bathroom,2
+bathroom,bathroom / wharepaku,Bathroom,Wharepaku,nzsl_online,https://www.nzsl.nz/signs/1440,1440,bathroom scales,reject,Different concept: bathroom scales,2
+bathroom,bathroom / wharepaku,Bathroom,Wharepaku,nzsl_online,https://www.nzsl.nz/signs/3480,3480,"bath, bathe",reject,"Different concept: bath, bathe",3
+bathroom,bathroom / wharepaku,Bathroom,Wharepaku,nzsl_online,https://www.nzsl.nz/signs/6259,6259,"bath, bathe",reject,"Different concept: bath, bathe",3

@@ -1,0 +1,21 @@
+{
+  "enabled_by_default": true,
+  "allowed": {
+    "temporal_crop": true,
+    "frame_jitter": true,
+    "speed_perturbation": true,
+    "gaussian_noise": true,
+    "feature_scale_jitter": true,
+    "keypoint_dropout": true
+  },
+  "disabled_by_default": {
+    "horizontal_flip": true,
+    "large_rotation": true,
+    "cross_sign_mixup": true
+  },
+  "notes": [
+    "Horizontal flip is disabled because handedness can change sign meaning.",
+    "Augmentation should only be applied after a sample has been verified as NZSL.",
+    "Report both real sample counts and augmented training counts in any paper results."
+  ]
+}

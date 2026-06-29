@@ -1,0 +1,13 @@
+{
+  "workspace": "starter_nzsl",
+  "raw_dir": "starter_nzsl\\data\\raw",
+  "processed_dir": "starter_nzsl\\data\\processed",
+  "metadata_dir": "starter_nzsl\\data\\metadata",
+  "models_dir": "starter_nzsl\\models",
+  "reports_dir": "starter_nzsl\\reports",
+  "source_registry": "starter_nzsl\\config\\verified_nzsl_sources.csv",
+  "vocabulary_file": "starter_nzsl\\config\\verified_nzsl_vocab_30plus.csv",
+  "vocabulary_size": 40,
+  "sample_template": "starter_nzsl\\data\\metadata\\verified_samples_template.csv",
+  "status": "ready_for_verified_nzsl_ingest"
+}

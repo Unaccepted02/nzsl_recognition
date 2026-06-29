@@ -1,0 +1,10 @@
+label,bilingual_gloss,english,maori,source_id,source_url,sign_id,sign_title,candidate_status,candidate_rationale,video_count
+boat,boat / waka,Boat,Waka,nzsl_online,https://www.nzsl.nz/signs/859,859,"boat, sail",seed,"Exact match available as broader gloss: boat, sail",3
+boat,boat / waka,Boat,Waka,nzsl_online,https://www.nzsl.nz/signs/6295,6295,row,reject,Different action: row,2
+bridge,bridge / piriti,Bridge,Piriti,nzsl_online,https://www.nzsl.nz/signs/5424,5424,bridge,seed,Exact match: bridge,2
+bridge,bridge / piriti,Bridge,Piriti,nzsl_online,https://www.nzsl.nz/signs/4483,4483,bridge,seed,Exact match: bridge,2
+path,path / ara,Path,Ara,nzsl_online,https://www.nzsl.nz/signs/2804,2804,"path, road",seed,"Exact match available as broader gloss: path, road",3
+crossing,crossing / ara whakawhiti,Crossing,Ara whakawhiti,nzsl_online,https://www.nzsl.nz/signs/4538,4538,pedestrian crossing,seed,Exact transport match: pedestrian crossing,2
+crossing,crossing / ara whakawhiti,Crossing,Ara whakawhiti,nzsl_online,https://www.nzsl.nz/signs/1974,1974,level crossing barrier,candidate,Related infrastructure term: level crossing barrier,2
+motorbike,motorbike / motopaika,Motorbike,Motopaika,nzsl_online,https://www.nzsl.nz/signs/3358,3358,motorbike,seed,Exact match: motorbike,2
+ferry,ferry / waka whakawhiti,Ferry,Waka whakawhiti,nzsl_online,https://www.nzsl.nz/signs/859,859,"boat, sail",candidate,"No exact ferry entry found; boat, sail remains proxy only",3

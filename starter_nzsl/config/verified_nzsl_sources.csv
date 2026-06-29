@@ -1,0 +1,6 @@
+source_id,source_name,source_type,language_scope,license,status,base_url,notes
+nzsl_online,NZSL Online,dictionary,NZSL,CC BY-NC-SA 4.0,approved,https://www.nzsl.nz/,Primary source for verified starter vocabulary
+nzsl_share,NZSL Share,community,NZSL,unknown,review_required,https://www.nzsl.nz/,Listed by NZSL Online as a recommended site; confirm direct reuse terms before training
+learn_nzsl,Learn NZSL,learning,NZSL,unknown,review_required,https://www.nzsl.nz/,Listed by NZSL Online as a recommended site; confirm direct reuse terms before training
+signdna,SignDNA,archive,NZSL,unknown,review_required,https://signdna.org/,Use only when clip-level rights and label suitability are clear
+manual_capture,Manual verified capture,custom,NZSL,project-specific,pending,,For self-recorded or collaborator-recorded NZSL clips with written consent

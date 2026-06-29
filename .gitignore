@@ -1,0 +1,52 @@
+# Python/runtime
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit/local temp
+.streamlit_tmp/
+.streamlit/
+*.log
+
+# Large or reproducible datasets
+data/raw/
+data/processed/
+starter_nzsl/data/raw/
+starter_nzsl/data/raw_cleaned/
+starter_nzsl/data/processed/
+starter_nzsl/data/processed_*/
+starter_nzsl/data/metadata/*.tmp
+aux_auslan/mm_wlauslan/
+aux_auslan/data/processed/
+
+# Model artifacts (all generated, not tracked)
+starter_nzsl/models/
+starter_nzsl/models_*/
+*.pt
+*.pth
+*.joblib
+*.pkl
+*.npy
+*.npz
+
+# Media files
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.zip
+*.tar
+*.tar.gz
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

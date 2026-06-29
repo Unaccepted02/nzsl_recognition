@@ -1,0 +1,20 @@
+{
+  "experiments": [
+    {
+      "experiment": "auslan_mm_wlauslan",
+      "source": "reports_transfer_auslan/metrics.json",
+      "test_accuracy": 0.07792207792207792,
+      "test_macro_f1": 0.04553055640012161,
+      "best_val_macro_f1": null,
+      "aux_rows_used": null
+    },
+    {
+      "experiment": "auslan_cognate_smoke",
+      "source": "models_transfer_smoke/transfer_summary.json",
+      "test_accuracy": 0.08333333333333333,
+      "test_macro_f1": 0.020207927225471087,
+      "best_val_macro_f1": 0.12947658402203857,
+      "aux_rows_used": 41
+    }
+  ]
+}

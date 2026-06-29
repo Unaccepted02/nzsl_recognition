@@ -1,0 +1,17 @@
+manifest_row,label,bilingual_gloss,english,maori,preferred_sources,target_samples,verified_sample_count,status,next_action,notes
+1,bus,bus / pahi,Bus,Pahi,nzsl_online|nzsl_share|learn_nzsl,20,pending,search_source_urls,Collect official dictionary and community variants
+2,train,train / tereina,Train,Tereina,nzsl_online|nzsl_share|learn_nzsl,20,pending,search_source_urls,Collect official dictionary and community variants
+3,ferry,ferry / waka whakawhiti,Ferry,Waka whakawhiti,nzsl_online|nzsl_share|learn_nzsl,16,pending,search_source_urls,Prefer dedicated ferry over generic boat
+4,taxi,taxi / tekihi,Taxi,Tekihi,nzsl_online|nzsl_share|learn_nzsl,16,pending,search_source_urls,Transport support term
+5,car,car / motoka,Car,Motoka,nzsl_online|nzsl_share|learn_nzsl,20,pending,search_source_urls,High-frequency mobility term
+6,bicycle,bicycle / paihikara,Bicycle,Paihikara,nzsl_online|nzsl_share|learn_nzsl,20,pending,search_source_urls,High-frequency mobility term
+7,walk,walk / hikoi,Walk,Hikoi,nzsl_online|nzsl_share|learn_nzsl,20,pending,search_source_urls,Core mobility term
+8,wheelchair,wheelchair / turu wira,Wheelchair,Turu wira,nzsl_online|nzsl_share|learn_nzsl,16,pending,search_source_urls,Accessibility-critical term
+9,ramp,ramp / arawhata,Ramp,Arawhata,nzsl_online|nzsl_share|learn_nzsl,16,pending,search_source_urls,Accessibility-critical term
+10,lift,lift / hiki,Lift,Hiki,nzsl_online|nzsl_share|learn_nzsl,16,pending,search_source_urls,Accessibility-critical term
+11,station,station / teihana,Station,Teihana,nzsl_online|nzsl_share|learn_nzsl,16,pending,search_source_urls,Core wayfinding term
+12,platform,platform / papa waka,Platform,Papa waka,nzsl_online|nzsl_share|learn_nzsl,16,pending,search_source_urls,Core rail wayfinding term
+13,stop,stop / tauranga pahi,Stop / Bus stop,Tauranga pahi,nzsl_online|nzsl_share|learn_nzsl,16,pending,search_source_urls,Core bus wayfinding term
+14,help,help / awhina,Help,Awhina,nzsl_online|nzsl_share|learn_nzsl|manual_capture,20,pending,search_source_urls,Allow manual supplementation
+15,hello,hello / kia ora,Hello,Kia ora,nzsl_online|nzsl_share|learn_nzsl|manual_capture,20,pending,search_source_urls,Allow manual supplementation
+16,thank_you,thank you / mihi,Thank you,Mihi,nzsl_online|nzsl_share|learn_nzsl,20,pending,search_source_urls,High-priority social term

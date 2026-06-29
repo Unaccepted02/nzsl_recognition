@@ -1,0 +1,8 @@
+{
+  "folds": 7,
+  "accuracy_mean": 0.9320197044334977,
+  "accuracy_std": 0.01563990922796802,
+  "macro_f1_mean": 0.9328420209677061,
+  "macro_f1_std": 0.014971165292241795,
+  "final_model_path": "starter_nzsl/models_transformer_cv7_all/final_all/best_transformer.pt"
+}

@@ -1,0 +1,17 @@
+label,bilingual_gloss,english,maori,category,priority_order,source_strategy,target_samples,notes
+bus,bus / pahi,Bus,Pahi,transport,1,nzsl_online_first,20,Core public transport term
+train,train / tereina,Train,Tereina,transport,2,nzsl_online_first,20,Core public transport term
+ferry,ferry / waka whakawhiti,Ferry,Waka whakawhiti,transport,3,nzsl_online_first,16,Important Auckland public transport term
+taxi,taxi / tekihi,Taxi,Tekihi,transport,4,nzsl_online_first,16,Useful for assisted travel scenarios
+car,car / motoka,Car,Motoka,transport,5,nzsl_online_first,20,High-frequency mobility term
+bicycle,bicycle / paihikara,Bicycle,Paihikara,transport,6,nzsl_online_first,20,High-frequency mobility term
+walk,walk / hikoi,Walk,Hikoi,mobility,7,nzsl_online_first,20,Core mobility term
+wheelchair,wheelchair / turu wira,Wheelchair,Turu wira,mobility,8,nzsl_online_first,16,Accessibility-critical term
+ramp,ramp / arawhata,Ramp,Arawhata,infrastructure,9,nzsl_online_first,16,Accessibility-critical term
+lift,lift / hiki,Lift,Hiki,infrastructure,10,nzsl_online_first,16,Accessibility-critical term
+station,station / teihana,Station,Teihana,infrastructure,11,nzsl_online_first,16,Core wayfinding term
+platform,platform / papa waka,Platform,Papa waka,infrastructure,12,nzsl_online_first,16,Core rail wayfinding term
+stop,stop / tauranga pahi,Stop / Bus stop,Tauranga pahi,infrastructure,13,nzsl_online_first,16,Core bus wayfinding term
+help,help / awhina,Help,Awhina,service,14,nzsl_online_then_manual,20,Core passenger support term
+hello,hello / kia ora,Hello,Kia ora,daily,15,nzsl_online_then_manual,20,High-priority bilingual greeting
+thank_you,thank you / mihi,Thank you,Mihi,daily,16,nzsl_online_first,20,High-priority social term
