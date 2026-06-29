@@ -23,7 +23,6 @@ Under stratified 7-fold cross-validation on a 23-class, 1015-sample dataset:
 ## Data policy
 
 - Training data uses verified NZSL sources only (primary: [NZSL Online](https://www.nzsl.nz/), CC BY-NC-SA 4.0)
-- Auslan data (MM-WLAuslan) is used only in auxiliary transfer-learning experiments, not as NZSL ground truth
 - Every sample must be traceable to a source URL and licence via `starter_nzsl/data/metadata/`
 
 ## Setup
@@ -97,23 +96,8 @@ starter_nzsl/
   reports/                  # BiLSTM strict-split diagnostic
   reports_sklearn/          # Random Forest strict-split diagnostic
   reports_transformer_optimized/  # Transformer strict-split diagnostic
-  reports_transfer_auslan/  # Auslan transfer experiment diagnostic
   scripts/                  # Data preparation and reporting scripts
 requirements.txt
 run_starter_demo.bat
 ```
 
-## Transfer learning (Auslan auxiliary)
-
-An exploratory Auslan-to-NZSL transfer experiment used MM-WLAuslan pose data (Halpe-136 format) converted to the 315-D MediaPipe layout. The Auslan-pretrained BiLSTM achieved 0.078 accuracy / 0.046 macro-F1 on the strict-split held-out set versus 0.091 / 0.058 for the NZSL-only BiLSTM — no benefit, likely due to cross-pipeline feature mismatch. See `starter_nzsl/reports_transfer_auslan/` for results.
-
-To prepare the Auslan auxiliary subset (requires downloading MM-WLAuslan annotations and pose file):
-
-```bash
-.venv\Scripts\python.exe -m starter_nzsl.scripts.prepare_mm_wlauslan_aux `
-  --annotations_dir aux_auslan\mm_wlauslan\annotations `
-  --pose_pkl aux_auslan\mm_wlauslan\pose\pose_train_valid_cam1.pkl `
-  --selected_glosses starter_nzsl\config\mm_wlauslan_selected_glosses.csv `
-  --out_dir aux_auslan\data\processed `
-  --num_frames 60
-```

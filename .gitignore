@@ -23,8 +23,6 @@ starter_nzsl/data/raw_cleaned/
 starter_nzsl/data/processed/
 starter_nzsl/data/processed_*/
 starter_nzsl/data/metadata/*.tmp
-aux_auslan/mm_wlauslan/
-aux_auslan/data/processed/
 
 # Model artifacts (all generated, not tracked)
 starter_nzsl/models/

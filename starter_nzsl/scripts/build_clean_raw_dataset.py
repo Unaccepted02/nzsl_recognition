@@ -33,12 +33,6 @@ A00_PATTERN = re.compile(r"-a00(?:\b|\s|\(|$)", re.IGNORECASE)
 TEST_PATTERN = re.compile(r"-test(?:\b|-|\s|\(|$)", re.IGNORECASE)
 
 
-def has_auslan_marker(path: Path) -> bool:
-    stem = path.stem.lower()
-    markers = ("-au", "_au", " auslan", "-auslan", "_auslan")
-    return any(marker in stem for marker in markers)
-
-
 def filename_role(path: Path) -> str:
     stem = path.stem.lower()
     if TEST_PATTERN.search(stem):
@@ -66,8 +60,8 @@ def build_clean_dataset(raw_dir: Path, out_dir: Path, manifest_path: Path) -> No
             if video_path.suffix.lower() not in VIDEO_EXTENSIONS:
                 continue
 
-            source_hint = "auslan" if has_auslan_marker(video_path) else "nzsl_or_unspecified"
             role = filename_role(video_path)
+            source_hint = "nzsl"
             kept = role in {"train_val", "test"}
 
             entry = {

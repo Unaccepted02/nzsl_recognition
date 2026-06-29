@@ -4,7 +4,7 @@ import argparse
 import json
 import sys
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -20,16 +20,8 @@ from src.utils import ensure_dir, write_json  # noqa: E402
 # Maps a human-readable model variant name to its evaluate.py report directory.
 MODEL_REPORT_DIRS = {
     "lstm": "reports",
-    "hybrid_lstm": "reports_hybrid",
-    "transformer": "reports_transformer",
+    "transformer": "reports_transformer_optimized",
     "sklearn": "reports_sklearn",
-    "transfer_lstm_auslan": "reports_transfer_auslan",
-}
-
-# Auxiliary transfer-learning runs that only have a summary JSON, not a full report.
-TRANSFER_SUMMARY_FILES = {
-    "auslan_mm_wlauslan": Path("reports_transfer_auslan") / "metrics.json",
-    "auslan_cognate_smoke": Path("models_transfer_smoke") / "transfer_summary.json",
 }
 
 
@@ -115,23 +107,6 @@ def plot_model_comparison(rows: List[Dict[str, Any]], out_path: Path) -> None:
     plt.close()
 
 
-def aggregate_transfer_experiments(starter_dir: Path) -> List[Dict[str, Any]]:
-    rows = []
-    for name, rel_path in TRANSFER_SUMMARY_FILES.items():
-        data = load_json(starter_dir / rel_path)
-        if data is None:
-            continue
-        rows.append({
-            "experiment": name,
-            "source": str(rel_path).replace("\\", "/"),
-            "test_accuracy": data.get("accuracy", data.get("test_accuracy")),
-            "test_macro_f1": data.get("macro_f1", data.get("test_macro_f1")),
-            "best_val_macro_f1": data.get("best_val_macro_f1"),
-            "aux_rows_used": data.get("aux_rows_used"),
-        })
-    return rows
-
-
 def main() -> None:
     ap = argparse.ArgumentParser(description="Generate dataset statistics and model comparison assets for the feasibility report.")
     ap.add_argument("--starter_dir", type=Path, default=STARTER_DIR)
@@ -157,10 +132,6 @@ def main() -> None:
     if comparison:
         plot_model_comparison(comparison, out_dir / "model_comparison.png")
     print(f"Wrote model comparison to {out_dir / 'model_comparison.json'}")
-
-    transfer = aggregate_transfer_experiments(starter_dir)
-    write_json(out_dir / "transfer_experiments.json", {"experiments": transfer})
-    print(f"Wrote transfer experiments summary to {out_dir / 'transfer_experiments.json'}")
 
 
 if __name__ == "__main__":
