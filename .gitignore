@@ -24,15 +24,12 @@ starter_nzsl/data/processed/
 starter_nzsl/data/processed_*/
 starter_nzsl/data/metadata/*.tmp
 
-# Model artifacts (all generated, not tracked)
+# Model artifacts — ignore intermediate/fold checkpoints, keep final trained models
 starter_nzsl/models/
-starter_nzsl/models_*/
-*.pt
+starter_nzsl/models_transformer_cv7_all/fold_*/
 *.pth
-*.joblib
 *.pkl
 *.npy
-*.npz
 
 # Media files
 *.mp4
